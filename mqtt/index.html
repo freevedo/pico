@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="index.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>mqtt client</title>
+  </head>
+  <body>
+    <h1>MQTT with raspberry pi pico w and js</h1>
+    <main>
+      <div class="card">
+        <img src="images/image1.jpg" alt="weather" />
+        <div class="container">
+          <h4>
+            <i class="fa-solid fa-temperature-three-quarters"></i>
+            <b>Raspberry pi pico W</b>
+          </h4>
+          <p id="picow" class="result"></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/image2.jpg" alt="weather" />
+        <div class="container">
+          <h4>
+            <i class="fa-solid fa-temperature-three-quarters"></i>
+            <b>DS18B20</b>
+          </h4>
+          <p id="ds18b20" class="result"></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/image3.jpg" alt="weather" />
+        <div class="container">
+          <h4>
+            <i class="fa-solid fa-temperature-three-quarters"></i>
+            <b>DHT11</b>
+          </h4>
+          <p id="dht11Temp" class="result"></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/image4.jpg" alt="weather" />
+        <div class="container">
+          <h4>
+            <i class="fa-solid fa-cloud-rain"></i>
+            <b>DHT11</b>
+          </h4>
+          <p id="dht11Hum" class="result"></p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
