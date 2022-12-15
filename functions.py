@@ -35,8 +35,8 @@ devices = sensor_ds.scan()
 digitalTemp=""
 
 #wlan connection credentials
-ssid = "TP-LINK_1ACE"
-password = 'JeanDenise55'
+ssid = "XXXXXX"
+password = 'XXXXXX'
 
 
 def connect(ssid, password):
