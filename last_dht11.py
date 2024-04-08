@@ -5,7 +5,7 @@ from dht import DHT11
 
 # Initialisierung GPIO und DHT11
 sleep(1)
-dht11_sensor = DHT11(Pin(14, Pin.IN, Pin.PULL_UP))
+dht11_sensor = DHT11(Pin(2, Pin.IN, Pin.PULL_UP))
 
 # Wiederholung (Endlos-Schleife)
 while True:
